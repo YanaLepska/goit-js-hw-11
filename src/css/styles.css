@@ -15,7 +15,7 @@
   font-weight: 400;
 
   color: #242424;
-  background-color: rgba(59, 113, 106, 0.711);
+  background-color: rgba(115, 180, 171, 0.711);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -43,6 +43,7 @@ input {
   width: 256px;
   height: 37px;
   padding-left: 16px;
+  background-color: #b6faeed6;
 }
 
 input,
@@ -115,13 +116,15 @@ button:hover {
   display: flex;
   flex-wrap: wrap;
   gap: 5px 15px;
-  font-size: 14px;
+  font-size: 15px;
   max-width: 320px;
   justify-content: space-evenly;
+  color: #064c3e;
+  font-weight: 450;
 }
 
 .info-box span {
-  font-weight: 500;
+  font-weight: 600;
   color: #242424;
 }
 
